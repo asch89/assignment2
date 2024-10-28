@@ -1,0 +1,48 @@
+GitLab Tutorials: 10/28/2024
+GitHub Account: May 2020
+
+1. 
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 331 bytes | 331.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/asch89/assignment2.git
+   7888806..75501e5  master -> master
+
+2.
+$ git rev-list --count HEAD
+9
+
+3.
+$ git log -1 -- README.md
+commit cde21e057b4a0f43315af2add6d61cf118b78e7d
+Author: Joey Aschenbrenner <j10612a@gmail.com>
+Date:   Mon Oct 28 18:56:33 2024 -0400
+
+    Updated README with name and FSUid
+
+4.
+Branches are used to prevent developers from writing over eachothers changes and to organize development by task or environment.
+
+5.
+Git log is for the commit history of the whole branch. Git status is for info about the branch relative to the current working directory.
+
+6.
+git log -- Vehicle.h
+
+7.
+git log --grep="file"
+
+8.
+Inheritance allows a class to acquire properties and methods from another class.
+Polymorphism allows methods to be used interchangeably across different classes.
+Encapsulation: Encapsulation hides the internal state of an object and only exposes necessary methods.
+
+9.
+Use of Lieutenant repositories instead of individual public developer repositories.
+
+10.
+Work and conflicts are distributed between Lieutenant repositories instead of all congesting in central repo.
